@@ -99,8 +99,9 @@ function myFunction() {
   if (document.body) {
       if ( 10 <= currentTime  &&  currentTime <= 18) {
         document.getElementById("greeting").innerHTML = "Its Lunch. Lets Grab The Local Paper.";
+        document.getElementById("article").innerHTML = "In this example, depending on the time of the day, the sun and the background color change to match the time of day.There are 3 day changes: morning, afternoon, and evening. And Since it is NOON get out your SunGlasses.";
         document.getElementById("sun").id= "sunNoon";
-          document.getElementById("bgColor").className="w3-pale-blue";
+        document.getElementById("bgColor").className="w3-pale-blue";
       }
 
       else if ( 18 <= currentTime  &&  2 <=  currentTime) {
